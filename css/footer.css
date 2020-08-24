@@ -1,0 +1,50 @@
+footer {
+    font-family: arial;
+    width: 100%;
+    text-align: center;
+    
+}
+.contenedor-de-todo {
+    background: #000000;
+    color: #ffffff;
+    width: 100%;
+    margin: auto;
+    padding: 9px;
+    position: fixed;
+    
+}
+
+.info {
+    margin: 1px;
+    display: flex;
+    font-size : 30px;
+    text-align: center;
+    
+}
+.info label {
+    margin-top: 1px;
+    margin-left: 20px;
+}
+
+
+@media screen and (max-width: 1000px) {
+    .pie-de-pagina{
+        flex-flow: wrap;
+        display: block;
+        
+    }
+}
+
+.info label {
+    margin-top: 1px;
+    align-content: center;
+}
+.final {
+    color: #ffffff;
+    background: #000000;
+}
+.copyright {
+    padding: 3px;
+    margin-left: 13px;
+    text-align: center;
+}

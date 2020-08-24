@@ -1,0 +1,25 @@
+.container-redes{
+    position: fixed;
+    bottom: 25px;
+    right: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.container-redes a{
+    margin-top: 4px;
+}
+
+.container-redes img{
+    width: 70px;
+    padding: 1px;
+    background: rgba(0,0,0,0.0);
+    cursor: pointer;
+    transition: all 300ms;
+}
+
+.container-redes a:hover img{
+    background: rgba(0,0,0,0.10);
+}
+
